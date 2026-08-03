@@ -9,7 +9,7 @@
 ### *The World's First Self-Evolving AI Trading Signal Engine*
 
 > A fully autonomous, deep-learning-powered trading signal system built for binary options traders.  
-> Runs **100% locally** on your machine — no cloud, no data sharing, total privacy.
+> Runs locally on your machine, connecting directly to trading platforms for maximum privacy and execution speed.
 
 <a href="https://t.me/stock_trader_fr">
   <img src="https://img.shields.io/badge/Join%20Telegram%20Channel-%40stock__trader__fr-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"/>
@@ -27,7 +27,7 @@ Unlike conventional signal bots that use fixed rules or indicators, **Stock Trad
 |---|---|---|
 | Learning | ❌ Fixed rules | ✅ Learns from every candle |
 | Memory | ❌ None | ✅ Persistent per-pair brain |
-| Privacy | ❌ Cloud-dependent | ✅ 100% Local — offline capable |
+| Privacy | ❌ Cloud-dependent | ✅ Local processing (direct broker connection) |
 | Adaptation | ❌ Static | ✅ Self-grows new neurons |
 | Signals | ❌ Generic | ✅ Tailored per currency pair |
 
@@ -66,9 +66,7 @@ The heart of the system. A custom deep learning architecture that:
 ### 🔐 Enterprise-Grade Security
 - **HWID Binding** — License tied to unique hardware fingerprint
 - **Atomic Time Verification** — Fetches true time from Google servers to prevent clock tampering
-- **Offline Tamper Detection** — Tracks last-known time to detect date rollback attacks
 - **Version Kill Switch** — Remote kill switch via GitHub Gist; force-update all clients instantly
-- **Encrypted License Keys** — HMAC-SHA256 signed keys (16-char format)
 
 ### 🧠 Brain Persistence & Updates
 - User brain data is stored in `%AppData%\StockTraderAI` — completely separate from the program
