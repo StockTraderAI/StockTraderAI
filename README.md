@@ -1,5 +1,9 @@
 <div align="center">
 
+<img src="https://raw.githubusercontent.com/StockTraderAI/StockTraderAI/main/icon.ico" width="128" height="128" alt="Stock Trader AI Logo"/>
+
+<br/>
+
 <img src="https://img.shields.io/badge/AI%20Trading-Signal%20System-00ff88?style=for-the-badge&logo=robot&logoColor=white"/>
 <img src="https://img.shields.io/badge/Platform-Windows-blue?style=for-the-badge&logo=windows&logoColor=white"/>
 <img src="https://img.shields.io/badge/Powered%20By-Deep%20Learning-purple?style=for-the-badge&logo=pytorch&logoColor=white"/>
@@ -26,6 +30,7 @@ Unlike conventional signal bots that use fixed rules or indicators, **Stock Trad
 | Feature | Traditional Bots | Stock Trader AI |
 |---|---|---|
 | Learning | ❌ Fixed rules | ✅ Learns from every candle |
+| Execution | ❌ Manual | ✅ Fully Autonomous Auto-Trader |
 | Memory | ❌ None | ✅ Persistent per-pair brain |
 | Privacy | ❌ Cloud-dependent | ✅ Local processing (direct broker connection) |
 | Adaptation | ❌ Static | ✅ Self-grows new neurons |
@@ -34,6 +39,13 @@ Unlike conventional signal bots that use fixed rules or indicators, **Stock Trad
 ---
 
 ## 🚀 Core Features
+
+### ⚡ Autonomous Auto-Trader Engine (NEW)
+Fully automated trading execution directly on the Quotex platform.
+- **Smart P&L Tracking:** Real-time session profit tracking directly from broker execution results.
+- **Auto-Stop Targeting:** Set a target profit and let the AI trade until the exact target is reached.
+- **Zero-Delay Execution:** Places trades instantly upon signal generation to avoid slippage.
+- **Smart Arbitration:** Filters out noise and strictly manages HOLD (tie) conditions for maximum safety.
 
 ### 🧬 Adaptive Neural Graph (ANG) Engine
 The heart of the system. A custom deep learning architecture that:
@@ -48,8 +60,8 @@ The heart of the system. A custom deep learning architecture that:
 | EUR/USD | EUR/USD (OTC) |
 | GBP/USD | GBP/USD (OTC) |
 | USD/JPY | EUR/JPY (OTC) |
-| EUR/GBP | |
-| EUR/JPY | |
+| EUR/GBP | AUD/USD (OTC) |
+| EUR/JPY | USD/CAD (OTC) |
 
 ### 📡 Real-Time Data Feed
 - Live WebSocket connection to **Quotex** platform
